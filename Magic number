@@ -1,0 +1,9 @@
+number = int(input("enter any number"))
+first_room = number // 100
+second_room = (number % 100)//10
+third_room = number %10
+print(first_room,second_room,third_room)
+if number%(first_room + second_room + third_room)**2==0:
+    print("its magical number")
+else:
+    print("not magical")
