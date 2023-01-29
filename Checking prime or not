@@ -1,0 +1,9 @@
+son = int(input("Enter your number >>>"))
+listson =[] 
+for i in range(1,son+2):
+    if son%i == 0:
+        listson.append(i)
+if len(listson) >2:
+    print("Thiis isnt a prime number \n",listson)
+else:
+    print("It is a prime number")
