@@ -1,0 +1,7 @@
+narsapuli = int(input("Sovga qancha turadi??? \n >>>"))
+jami = 0
+for i in range(1,8):
+    i = int(input("Gnomda qancha pul bor"))
+    jami = jami +i
+qancha_yetishmayapdi = narsapuli - jami
+print(qancha_yetishmayapdi)
